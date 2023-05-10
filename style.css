@@ -1,0 +1,126 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body 
+{
+  background: rgba(0, 0, 0, 0.7) url("CHICAGO.jpg") center center;
+   background-size: cover;
+   background-position: center;
+   min-height: 700px;
+   position: relative;
+   z-index: 1;
+   background-repeat: no-repeat;
+   font-size: 18px;
+   line-height: 30px;
+}
+
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.miniNav
+{
+    background:  #222023;
+    height: 50px;
+    width:100%;
+    text-align: right;
+    
+}
+.miniNav ul
+{
+    margin-right: 100px;
+}
+.miniNav ul li
+{
+    display: inline-block;
+    padding: 0px;
+    line-height: 60px;
+    
+}
+.miniNav ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    padding: 0px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    font-weight: 100px;
+    margin-right: 25px;
+    text-align: 75px;
+}
+
+.navbar
+{
+    background:rgba(255, 255, 255, 0.7);
+    height: 120px;
+    width: 100%;
+    margin-top: 0px;
+    text-align: right;
+}
+.navbar ul 
+{
+    margin-right: 75px;  
+}
+.navbar ul li
+{
+    display: inline-block;
+    padding: 0px;
+    line-height: 120px;
+    text-transform: uppercase;
+    margin-right: 75px;
+    margin-left: -5px;
+}
+.navbar img
+{
+    height: 100px;
+    width: 170px;
+    margin-left: 100px;
+    float: left;
+    margin-top: 10px;
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    color: #38aeb0;;
+    padding: 0px;
+    font-size: 14px; 
+    font-weight: 500;
+    line-height: 1.428571429;
+    font-family: 'Lato', sans-serif;
+    
+
+}
+ .navbar li a:hover
+{
+    background-color: #38aeb0; ;
+    color: #fffdf9;
+    transition: all 0.4s ease 0s;
+    padding: 14px;
+    text-decoration: none;
+    border-width: 2px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    
+}
+h1
+{
+    color: #fffdf9;
+    font-weight: 700;
+    font-family: 'big_shoulders_displaybold';
+    font-size: 60px;
+    line-height: 65px;
+    letter-spacing: 2.5px;
+    margin-top: 115px;
+    margin-left: 110px;
+    margin-right:110px ;
+    display: block;
+    text-align: center;
+}
